@@ -1,0 +1,8 @@
+Move icon after percentage coordinates are entered into input and Enter key pressed or by mouse click.
+
+Coordinates validation:
+- format validation, client side;
+- range validation, server side;
+
+Addition:
+- icon is forbidden to cross borders;

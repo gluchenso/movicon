@@ -1,0 +1,15 @@
+#moving_icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+#coordinates_label {
+    font-size:15px;
+    color: gray;
+}

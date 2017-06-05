@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>moving icon</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script type="text/javascript" src="/static/script.js"></script>
+</head>
+<body onload="onLoad();" onresize="resize();">
+    <center>
+        <label for="coordinates" id="coordinates_label">Enter icon coordinates(%) or just click on the screen:  </label>
+        <input type="text" id="coordinates" onkeyup="coordinatesKeyUp(event);" />
+    </center>
+    <img id = "moving_icon" src="static/icon.png" />
+</body>
+</html>
